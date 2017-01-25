@@ -7,8 +7,8 @@ void main()
     printf("\nEnter two numbers\n");
     scanf("%f%f",&a,&b);
     printf("\nEnter the operation you want to perform");
-    scanf("%s",%op);
-    switch(op) in
+    scanf("%s",&op);
+    switch(op)
     {
         case '+':
             printf("\nAddition is %f",a+b);
@@ -23,6 +23,6 @@ void main()
             printf("\nMultiplication is %f",a*b);
             break;
         default:
-            printf("\nInvalid operation : %s",op);
+            printf("\nInvalid operation : %c",op);
     }
 }

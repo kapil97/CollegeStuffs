@@ -7,5 +7,5 @@ void main()
     {
         printf("\n\nWanna continue ?\n");
         scanf("%c",&in);
-    }while(in==Y || in==y)
+    } while(in=="Y" || in=="y");
 }

@@ -2,7 +2,7 @@
 // Program to calculate Factorial
 void main()
 {
-    int a,n;
+    int a,c,n;
     printf("\n\nEnter the number whose Factorial is to be calculated\n\n");
     scanf("%d",&n);
     a=1;            // Result

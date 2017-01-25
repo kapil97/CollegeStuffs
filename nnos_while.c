@@ -8,7 +8,7 @@ void main()
     scanf("%d",&n);
     while(c<=n)
     {
-        print("\n%d",c);
+        printf("\n%d",c);
         c++;
     }
 }

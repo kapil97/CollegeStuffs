@@ -7,13 +7,13 @@ void main()
     scanf("%f",&marks);
     if (marks<40)
     {
-        printf("\nFAIL")
+        printf("\nFAIL");
     }
-    elseif(marks>=40 && marks<60)
+    else if (marks>=40 && marks<60)
     {
         printf("\nPASS");
     }
-    elseif(marks>=60 && marks<=80)
+    else if (marks>=60 && marks<=80)
     {
         printf("\nOutstanding");
     }
