@@ -1,6 +1,5 @@
-#CollegeStuffs
+#CollegeStuffs [![Build Status](https://travis-ci.org/a7r3/CollegeStuffs.svg?branch=master)](https://travis-ci.org/a7r3/CollegeStuffs)
 
 Collection of Programming Stuffs in my college life
 
-##This is a Work in Progress Stuff
-Purpose not implemented yet :P
+Stuffs available in C at the moment. Variety Languages and Programs Incoming as time passes!
