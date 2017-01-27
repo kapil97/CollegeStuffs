@@ -33,6 +33,10 @@ fibo_while.o:
 	$(CC) -o fibo_while.o fibo_while.c
 grade.o:
 	$(CC) -o grade.o grade.c
+hcf.o:
+	$(CC) -o hcf.o hcf.c
+hcf_3nos_for.o:
+	$(CC) -o hcf_3nos_for.o hcf_3nos_for.c
 helloworld.o:
 	$(CC) -o helloworld.o helloworld.c
 ninputs_do_while.o:
@@ -41,8 +45,14 @@ nnos_while.o:
 	$(CC) -o nnos_while.o nnos_while.c
 oddprint.o:
 	$(CC) -o oddprint.o oddprint.c
+perfectno_for.o:
+	$(CC) -o perfectno_for.o perfectno_for.c
 sumofcubes_while.o:
 	$(CC) -o sumofcubes_while.o sumofcubes_while.c
+sumof5digitno_for.o:
+	$(CC) -o sumof5digitno_for.o sumof5digitno_for.c
+sumofndigitno_for.o:
+	$(CC) -o sumofndigitno_for.o sumofndigitno_for.c
 table.o:
 	$(CC) -o table.o table.c
 
