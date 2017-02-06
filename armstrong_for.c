@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program which checks whether a number is perfect or not
+// Program which checks whether a number is an Armstrong number or not
 void main()
 {
     int r,nb,num,sum=0;
@@ -13,10 +13,10 @@ void main()
     }
     if(nb==num)
     {
-        printf("\n\nGiven number %d is a perfect number",nb);
+        printf("\n\nGiven number %d is an Armstrong number",nb);
     }
     else
     {
-        printf("\n\nGiven number %d is NOT a perfect number",nb);
+        printf("\n\nGiven number %d is NOT an Armstrong number",nb);
     }
 }

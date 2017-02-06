@@ -1,5 +1,6 @@
 #!/bin/bash
+echo;
 for file in `ls *.c`; do
     echo -e "Compiling ${file/.c/}";
-    gcc -o ${file/.c/.o} ${file};
+    gcc -o ${file/.c/.o} ${file} ${CFLAGS} -lm;
 done

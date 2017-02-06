@@ -8,11 +8,12 @@ TARGET = $(wildcard *.c)
 OUTPUT = $(TARGET:.c=.o)
 
 init:
-	@echo
-	@echo "CollegeStuffs! by a7r3"
+	@echo "##########################"
+	@echo "# CollegeStuffs! by a7r3 #"
+	@echo "##########################"
 	@echo
 compilemsg:
-	@echo "Compiling all Programs"
+	@echo "[!] Compiling all Programs"
 	@echo
 	bash ./cstuffs.sh
 
@@ -20,12 +21,13 @@ compilemsg:
 
 collegestuffs: init compilemsg $(OUTPUT)
 	@echo
-	@echo All C Files built
+	@echo "[!] All C Files built"
 	@echo
 
 clean:
-	@echo
-	@echo Cleaning Output files
+	@echo "#########################"
+	@echo "# Cleaning Output files #"
+	@echo "#########################"
 	$(RM) *.o
-	@echo Output cleaned
+	@echo "[!] Output cleaned"
 	@echo
