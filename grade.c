@@ -1,3 +1,4 @@
+// INPUTS: 73
 #include<stdio.h>
 // Program which Assigns grades according to your marks
 void main()

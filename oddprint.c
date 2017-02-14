@@ -1,3 +1,4 @@
+// INPUTS: 30
 #include<stdio.h>
 // Program to print Odd numbers upto 'n'
 // 'n' - user defined input
@@ -9,7 +10,7 @@ void main()
     a=1;
     while(a<=n)
     {
-        printf("%d",a);
+        printf("%d\n",a);
         a=a+2;
     }
 }

@@ -1,3 +1,4 @@
+// INPUTS: 10
 #include<stdio.h>
 // Program to print 'n' numbers
 // n is user specified

@@ -1,3 +1,4 @@
+// INPUTS: 3 2 3 4
 #include<stdio.h>
 // Program to calculate the sum of cubes of 'n' numbers
 // 'n' - user Specified

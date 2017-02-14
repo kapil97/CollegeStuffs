@@ -1,12 +1,3 @@
-# the CC: gcc for C program, define as g++ for C++
-CC = gcc
-# CC flags - none for now
-# CFLAGS = -Wall
-
-# Include all C files
-TARGET = $(wildcard *.c)
-OUTPUT = $(TARGET:.c=.o)
-
 init:
 	@echo "##########################"
 	@echo "# CollegeStuffs! by a7r3 #"

@@ -1,3 +1,4 @@
+// INPUTS: 4 1 2 -3 4
 #include<stdio.h>
 // Program to calculate average of 'n' numbers provided by user
 // Program terminates if negative input provided

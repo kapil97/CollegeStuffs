@@ -1,3 +1,4 @@
+// INPUTS: 24355
 #include<stdio.h>
 // Program to calculate sum of 5 digit number
 void main()

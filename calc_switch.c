@@ -1,3 +1,4 @@
+// INPUTS: 5 3 -
 #include<stdio.h>
 // Program to play with numbers
 void main()

@@ -1,3 +1,4 @@
+// INPUTS: 8 5 9
 #include<stdio.h>
 // Program to calculate GCD of two given numbers
 // Logic : GCD will be always less than or equal the smallest number

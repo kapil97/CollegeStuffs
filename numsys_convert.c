@@ -1,3 +1,4 @@
+// INPUTS: 73 1
 /* Note: For compiling with the GCC pass the flags -lm
 /* i.e. gcc -lm numsys_convert.c
     On GCC version 'gcc (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609'

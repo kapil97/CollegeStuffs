@@ -1,3 +1,4 @@
+// INPUTS: 5
 #include<stdio.h>
 // Program to print Fibonacci series upto user specified input 'n'
 void main()

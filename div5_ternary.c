@@ -1,3 +1,4 @@
+// INPUTS: 115
 #include<stdio.h>
 // Program which makes use of ternary operator
 void main()

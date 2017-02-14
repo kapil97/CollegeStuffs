@@ -1,3 +1,4 @@
+// INPUTS: 5
 #include<stdio.h>
 // Program To calculate sum of the series
 // (1!/1)+(2!/2)+(3!/3)+.....+(n!/n)
