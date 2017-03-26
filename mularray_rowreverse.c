@@ -3,7 +3,7 @@
 
 void main()
 {
-    int a[50][50],b[50][50],r1,c1,i,j;
+    int a[50][50],r1,c1,i,j,t;
     printf("\n\nSpecify the order for Matrix 1\n\n");
     scanf("%d%d",&r1,&c1);
     for(i=0;i<r1;i++)
@@ -15,12 +15,14 @@ void main()
         printf("\n");
     }
 
-    printf("\nRowReversing\n");
-    for(i=0;i<r1;i++)
+    printf("\n\nRowReversing\n\n");
+    for(i=0;i<r1/2;i++)
     {
         for(j=0;j<c1;j++)
         {
-            b[i][j]=a[r1-i-1][j];
+            t=a[i][j];
+            a[i][j]=a[r1-i-1][j];
+            a[r1-i-1][j]=t;
         }
     }
 
@@ -29,7 +31,7 @@ void main()
     {
         for(j=0;j<c1;j++)
         {
-            printf("%d\t",b[i][j]);
+            printf("%d\t",a[i][j]);
         }
         printf("\n");
     }
