@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to reverse the rows a given n-order matrix
+/// Program to reverse the rows a given n-order matrix
 
 void main()
 {

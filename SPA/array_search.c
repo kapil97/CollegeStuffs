@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to Search for an element in an Array
+/// Program to Search for an element in an Array
 
 void main()
 {

@@ -1,6 +1,5 @@
-// INPUTS: 23
 #include<stdio.h>
-// Program to check whether the given number is a prime number or not
+/// Program to check whether the given number is a prime number or not
 void main()
 {
     int i,n;

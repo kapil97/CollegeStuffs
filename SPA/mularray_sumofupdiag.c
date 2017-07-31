@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate sum of upper diagonal elements of an array
+/// Program to calculate sum of upper diagonal elements of an array
 
 void main()
 {

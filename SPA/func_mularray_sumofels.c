@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate the sum of elements of a Matrix using function
+/// Program to calculate the sum of elements of a Matrix using function
 int sumofa(int c,int d,int x[c][d]);
 void imat(int e,int f,int y[e][f]);
 

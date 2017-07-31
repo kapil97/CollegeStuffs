@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to arrange 'n' elements in Ascending and Descending order
+/// Program to arrange 'n' elements in Ascending and Descending order
 
 void main()
 {

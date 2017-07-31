@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program which provides info about me in a \n fashion
+/// Program which provides info about me in a \n fashion
 void main()
 {
     printf("\nName: Arvindraj Thangaraj\n");

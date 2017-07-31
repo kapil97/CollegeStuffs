@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to understand the usage of Non-Formatted I/O functions
+/// Program to understand the usage of Non-Formatted I/O functions
 void main()
 {
     int ch='a';

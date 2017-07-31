@@ -1,6 +1,5 @@
-// INPUTS: 24355
 #include<stdio.h>
-// Program to calculate sum of 5 digit number
+/// Program to calculate sum of digits of 5 digit number
 void main()
 {
     int a,b,r,sum;

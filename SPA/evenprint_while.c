@@ -1,7 +1,6 @@
-// INPUTS: 10
 #include<stdio.h>
-// Program to print even numbers upto 'n'
-// 'n' - user defined input
+/// Program to print even numbers upto 'n'
+
 void main()
 {
     int a,n;

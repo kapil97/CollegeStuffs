@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate reverse of a number using Recursion
+/// Program to calculate reverse of a number using Recursion
 void reverse(int a);
 
 void main()

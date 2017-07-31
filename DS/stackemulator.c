@@ -1,3 +1,5 @@
+/// Menu-Driven Program to imitate a Stack using an Array
+
 #include<stdio.h>
 
 void menu(int a[], int *n, int *op)

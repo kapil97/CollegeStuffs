@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program which shows a table (kinda)
+/// Program which shows a table (kinda)
 void main()
 {
     printf("\nRoll No\tName\tClass\tDiv\tBranch\tCollege\n");

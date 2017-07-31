@@ -1,6 +1,5 @@
-// INPUTS: y y y y nn
 #include<stdio.h>
-// Take input from user and continue taking it if user enters 'Y' or 'y' as input
+/// Take input from user and continue taking it if user enters 'Y' or 'y' as input
 // For *NIX systems:
 // Due to consideration of Carriage return in *nix systems, scanf has an escape sequence
 // \r added.

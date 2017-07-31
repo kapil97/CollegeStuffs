@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate sum of two matrices, 2x2
+/// Program to calculate sum of two matrices, 2x2
 
 void main()
 {

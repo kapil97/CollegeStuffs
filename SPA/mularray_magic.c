@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to check whether the given matrix is a Magic matrix
+/// Program to check whether the given matrix is a Magic matrix
 
 void main()
 {

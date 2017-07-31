@@ -1,7 +1,6 @@
-// INPUTS: 5 1 -2 3 -4 5
 #include<stdio.h>
-// Program to calculate average of 'n' numbers provided by user
-// Program terminates if negative input provided
+/// Program to calculate average of 'n' numbers provided by user
+
 void main()
 {
     // num, sum, counter, no. of obs, no. of inputs

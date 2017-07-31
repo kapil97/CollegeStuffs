@@ -1,6 +1,5 @@
-// INPUTS: 5
 #include<stdio.h>
-// Program to calculate Factorial
+/// Program to calculate Factorial
 void main()
 {
     int a,c,n;

@@ -1,6 +1,6 @@
 // INPUTS: 115
 #include<stdio.h>
-// Program which makes use of ternary operator
+/// Program which makes use of ternary operator
 void main()
 {
     int num;

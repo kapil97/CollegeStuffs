@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+/// Program to evaluate transpose of a multidim array
 void iomat(int a,int b,int x[a][b],int op);
 void transposeof(int r,int c,int mata[r][c],int matb[c][r]);
 

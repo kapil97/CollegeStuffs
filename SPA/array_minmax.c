@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to Find minimum and maximum values in Array
+/// Program to Find minimum and maximum values in Array
 
 void main()
 {

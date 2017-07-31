@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate the Multiplication of two Matrices
+/// Program to calculate the Multiplication of two Matrices
 void iomat(int a,int b,int x[a][b],int op);
 void matmul(int ry, int cy,int cz,int y[ry][cy],int z[cy][cz],int r[ry][cz]);
 

@@ -1,6 +1,5 @@
-// INPUTS: 23344
 #include<stdio.h>
-// Program to calculate sum of n numbers
+/// Program to calculate sum of n numbers
 int sumof(int a);
 
 void main()

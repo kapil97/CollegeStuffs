@@ -1,5 +1,6 @@
 #include<stdio.h>
-/* Program to print the following pattern
+/// A Pattern printing program
+/*
    A
   B C
  D E F

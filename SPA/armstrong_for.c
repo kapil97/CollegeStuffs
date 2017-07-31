@@ -1,6 +1,5 @@
-// INPUTS: 153
 #include<stdio.h>
-// Program which checks whether a number is an Armstrong number or not
+/// Program which checks whether a number is an Armstrong number or not
 void main()
 {
     int r,nb,num,sum=0;

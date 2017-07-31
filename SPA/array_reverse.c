@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to print contents of Array in reverse
+/// Program to print contents of Array in reverse
 
 void main()
 {

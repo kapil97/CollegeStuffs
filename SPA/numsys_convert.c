@@ -7,8 +7,7 @@
 /* Works fine with Turbo C */
 #include<stdio.h>
 #include<math.h>
-// Program to convert a Devimal number to either of their
-// Binary, Octal, or Hexadecimal equivalents
+/// Program to convert a Decimal number to either of their Binary, Octal, or Hexadecimal equivalents
 void main()
 {
 	long int i,n,q,sb,base;

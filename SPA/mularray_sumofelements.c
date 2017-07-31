@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Program to calculate the sum of elements using function
+/// Program to calculate the sum of elements using function
 int sumofa(int a,int b,int x[a][b]);
 void imat(int c,int d,int y[c][d]);
 

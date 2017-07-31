@@ -1,4 +1,5 @@
 #include<stdio.h>
+/// A Pattern printing program
 void main()
 {
     int i,j;

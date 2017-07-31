@@ -1,5 +1,6 @@
 #include<stdio.h>
-/* Program to print this table matrix
+/// Program to print a square-table matrix
+/*
 1	2	3	4	5	6	7	8	9	10
 2	4	6	8	10	12	14	16	18	20
 3	6	9	12	15	18	21	24	27	30
@@ -11,6 +12,7 @@
 9	18	27	36	45	54	63	72	81	90
 10	20	30	40	50	60	70	80	90	100
 */
+
 void main()
 {
     int i,j;

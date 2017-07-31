@@ -1,4 +1,5 @@
 #include<stdio.h>
+/// A Pattern Program
 void main()
 {
     int i,j;

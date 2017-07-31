@@ -1,6 +1,6 @@
 // INPUTS: 5 1 2 3 4 5
 #include<stdio.h>
-// Program to calculate average of 'n' numbers provided by user
+/// Program to calculate average of 'n' numbers provided by user
 void main()
 {
     int a,b=0,c,n;

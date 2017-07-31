@@ -1,6 +1,5 @@
-// INPUTS: 23344
 #include<stdio.h>
-// Program to calculate sum of 'n' digit number
+/// Program to calculate sum of 'n' digit number
 void main()
 {
     int num,r,sum=0;

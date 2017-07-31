@@ -1,6 +1,5 @@
-// INPUTS: 30
 #include<stdio.h>
-// Program to print Odd numbers upto 'n'
+/// Program to print Odd numbers upto 'n'
 // 'n' - user defined input
 void main()
 {
