@@ -1,4 +1,5 @@
 import java.util.*;
+/// Program which calculates Simple Interest
 
 class sinterest
 {

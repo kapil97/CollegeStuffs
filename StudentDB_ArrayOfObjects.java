@@ -1,5 +1,7 @@
 import java.util.*;
 
+/// Program which collects and prints details of 'n' number of students
+
 class Student
 {
 	String name;
