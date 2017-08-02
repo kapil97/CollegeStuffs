@@ -108,3 +108,5 @@
 **./DS/evalpost.c** - Program to Evaluate a PostFix expression
 
 **./DS/in2post.c** - Program to convert an Infix expression to a Postfix expression
+
+**./DS/circular_queue.c** - Program to implement Circular Queue using Array
