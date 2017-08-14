@@ -1,18 +1,16 @@
 /// Program to implement Circular Queue using Array
 #include <stdio.h>
 #define MAX 10
-// For exit() --v
-#include <stdlib.h>
 
 // Queue-like Array
 int Q[MAX];
+// Menu Driven, Operation Selector
+int op=0;
 // Front Pointer for Queue
 int f=-1;
 // Rear Pointer for Queue
 int r=-1;
-// Menu Driven. Operation selection
-int op=0;
-// Eh, some vars
+// Value, Element
 int val,e;
 // Counter
 int i;
@@ -89,13 +87,14 @@ void display()
 		int limit=MAX-1;
 		// Is rear ahead of front ?
 		// x x f 4 5 6 7 r x x
-		if(r>f)
+		if(r>f || f==r)
 			limit=r;
 		for(i=f;i<=limit;i++)
 			printf("| %d ",Q[i]);
 		// Is rear behind front ?
 		// 1 2 r x x x f 3 4 5
-		// In that case, print from 'f' to 'MAX-1' i.e. 5
+		// In that case, print from 'f' to 'MAX-1' i.e. 5,
+		// which is done above
 		// Then start from 0 till 'r'
 		if(r<f)
 			for(i=0;i<=r;i++)
@@ -104,38 +103,35 @@ void display()
 	}
 }
 
-void menu()
-{
-	printf("\n========= Circular Queue Emulator ===========");
-	printf("\nSpecify the operation you want to perform\n");
-	printf("1 - Insert an Element\n");
-	printf("2 - Delete an Element\n");
-	printf("3 - Show the Queue\n");
-	printf("4 - EXIT\n");
-	printf("============================================");
-	printf("\n[>] ");
-	scanf("%d",&op);
-	switch(op)
-	{
-		case 1:
-			printf("\nSpecify the element to be inserted\n");
-			scanf("%d",&e);
-			insert(e);
-			break;
-		case 2:
-			if((val=del())!=-1)
-				printf("\nDeleted Element %d from Queue Successfully\n",val);
-			else
-				printf("\nStack Empty\n");
-			break;
-		case 3:	display(); break;
-		case 4: exit(0); break;
-		default: printf("\nInvalid Selection\n");
-	}
-}
-
-void main()
+int main()
 {
 	while(op!=4)
-		menu();
+	{
+		printf("\n\n========= Circular Queue Emulator ===========");
+		printf("\nSpecify the operation you want to perform\n");
+		printf("1 - Insert an Element\n");
+		printf("2 - Delete an Element\n");
+		printf("3 - Show the Queue\n");
+		printf("4 - EXIT\n");
+		printf("============================================");
+		printf("\n\n[>] ");
+		scanf("%d",&op);
+		switch(op)
+		{
+			case 1:
+				printf("\nSpecify the element to be inserted\n");
+				scanf("%d",&e);
+				insert(e);
+				break;
+			case 2:
+				if((val=del())!=-1)
+					printf("\nDeleted Element %d from Queue Successfully\n",val);
+				else
+					printf("\nStack Empty\n");
+				break;
+			case 3:	display(); break;
+			case 4: printf("\n\n[!] EXIT\n\n"); return 0;
+			default: printf("\nInvalid Selection\n");
+		}
+	}
 }
