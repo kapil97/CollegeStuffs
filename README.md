@@ -103,6 +103,10 @@
 
 **./DS/stackemulator.c** - Menu-Driven Program to imitate a Stack using an Array
 
+**./DS/linked_list.c** - Program to emulate a (creation-only) linked list using structures
+
+**./DS/linked_list_user.c** - Program to emulate a (creation-only) linked list using structures, values from user
+
 **./DS/expr_validation.c** - Program to Validate Bracket Expressions
 
 **./DS/evalpost.c** - Program to Evaluate a PostFix expression
