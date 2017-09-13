@@ -103,7 +103,7 @@
 
 **./DS/stackemulator.c** - Menu-Driven Program to imitate a Stack using an Array
 
-**./DS/linked_list.c** - Program to emulate a (creation-only) linked list using structures
+**./DS/linked_list_allOps.c** - Program to emulate a linked list using structures, values from user, MENU DRIVEN - Operations use Start Node as Reference
 
 **./DS/linked_list_user.c** - Program to emulate a (creation-only) linked list using structures, values from user
 
@@ -114,3 +114,4 @@
 **./DS/in2post.c** - Program to convert an Infix expression to a Postfix expression
 
 **./DS/circular_queue.c** - Program to implement Circular Queue using Array
+
