@@ -19,6 +19,6 @@ clean:
 	@echo "#########################"
 	@echo "# Cleaning Output files #"
 	@echo "#########################"
-	$(RM) *.o
+	find . -name *.o -exec rm -f {} \;
 	@echo "[!] Output cleaned"
 	@echo

@@ -1,117 +1,124 @@
-# c
 
+# C
 
-**./SPA/grade.c** - Program which Assigns grades according to your marks
+## DS
 
-**./SPA/mularray_rowreverse.c** - Program to reverse the rows a given n-order matrix
+**DS/circular_linked_list.c** - Program to emulate a linked list using structures, values from user, MENU DRIVEN - Operations use End Node as Reference  
 
-**./SPA/EDCBA.c** - A Pattern Program
+**DS/circular_queue.c** - Program to implement Circular Queue using Array  
 
-**./SPA/pattern_ABCtri.c** - A Pattern printing program
+**DS/evalpost.c** - Program to Evaluate a PostFix expression  
 
-**./SPA/armstrong_for.c** - Program which checks whether a number is an Armstrong number or not
+**DS/expr_validation.c** - Program to Validate Bracket Expressions  
 
-**./SPA/array_sort.c** - Program to arrange 'n' elements in Ascending and Descending order
+**DS/in2post.c** - Program to convert an Infix expression to a Postfix expression  
 
-**./SPA/func_mularray_matmul.c** - Program to calculate the Multiplication of two Matrices
+**DS/linked_list_allOps.c** - Program to emulate a linked list using structures, values from user, MENU DRIVEN - Operations use Start Node as Reference  
 
-**./SPA/refunc_sumupton.c** - Program to calculate sum of n numbers
+**DS/linked_list.c** - Program to emulate a (creation-only) linked list using structures  
 
-**./SPA/refunc_fact.c** - Program to calculate Factorial
+**DS/stackemulator.c** - Menu-Driven Program to imitate a Stack using an Array  
 
-**./SPA/pattern_asc_desc.c** - A Pattern printing program
+## SPA
 
-**./SPA/avg_negskip_for.c** - Program to calculate average of 'n' numbers provided by user
+**SPA/1to10tables.c** - Program to print a square-table matrix  
 
-**./SPA/hcf.c** - Program to calculate GCD of two given numbers
+**SPA/aboutme.c** - Program which provides info about me in a 
+ fashion  
 
-**./SPA/hcf_3nos_for.c** - Program to calculate GCD of two given numbers
+**SPA/armstrong_for.c** - Program which checks whether a number is an Armstrong number or not  
 
-**./SPA/array_reverse.c** - Program to print contents of Array in reverse
+**SPA/array_minmax.c** - Program to Find minimum and maximum values in Array  
 
-**./SPA/avg_while.c** - Program to calculate average of 'n' numbers provided by user
+**SPA/array_reverse.c** - Program to print contents of Array in reverse  
 
-**./SPA/sumofndigitno_for.c** - Program to calculate sum of 'n' digit number
+**SPA/array_search.c** - Program to Search for an element in an Array  
 
-**./SPA/pattern_no_124369.c** - Pattern printing program
+**SPA/array_sort.c** - Program to arrange 'n' elements in Ascending and Descending order  
 
-**./SPA/evenprint_while.c** - Program to print even numbers upto 'n'
+**SPA/avg_negskip_for.c** - Program to calculate average of 'n' numbers provided by user  
 
-**./SPA/mularray_magic.c** - Program to check whether the given matrix is a Magic matrix
+**SPA/avg_noneg_while.c** - Program to calculate average of 'n' numbers provided by user. Program continues on specifying negative numbers  
 
-**./SPA/fact_while.c** - Program to calculate Factorial
+**SPA/avg_while.c** - Program to calculate average of 'n' numbers provided by user  
 
-**./SPA/div5_ternary.c** - Program which makes use of ternary operator
+**SPA/calc_switch.c** - Program to play with numbers  
 
-**./SPA/sumofcubes_while.c** - Program to calculate the sum of cubes of 'n' numbers
+**SPA/div5_ternary.c** - Program which makes use of ternary operator  
 
-**./SPA/prime2.c** - Program to check whether the given number is a prime number or not
+**SPA/EDCBA.c** - A Pattern Program  
 
-**./SPA/fibo_while.c** - Program to print Fibonacci series upto user specified input 'n'
+**SPA/evenprint_while.c** - Program to print even numbers upto 'n'  
 
-**./SPA/refunc_reverse.c** - Program to calculate reverse of a number using Recursion
+**SPA/fact_while.c** - Program to calculate Factorial  
 
-**./SPA/ninputs_for.c** - Take input from user and continue taking it if user enters 'Y' or 'y' as input
+**SPA/fibo_while.c** - Program to print Fibonacci series upto user specified input 'n'  
 
-**./SPA/helloworld.c** - Program which says Hello World!
+**SPA/func_armstrong.c** - Program which checks whether a number is an Armstrong number or not  
 
-**./SPA/func_armstrong.c** - Program which checks whether a number is an Armstrong number or not
+**SPA/func_mularray_matmul.c** - Program to calculate the Multiplication of two Matrices  
 
-**./SPA/array_search.c** - Program to Search for an element in an Array
+**SPA/func_mularray_sumofels.c** - Program to calculate the sum of elements of a Matrix using function  
 
-**./SPA/nnos_while.c** - Program to print 'n' numbers
+**SPA/func_mularray_transpose.c** - Program to evaluate transpose of a multidim array  
 
-**./SPA/aboutme.c** - Program which provides info about me in a \n fashion
+**SPA/grade.c** - Program which Assigns grades according to your marks  
 
-**./SPA/table.c** - Program which shows a table (kinda)
+**SPA/hcf_3nos_for.c** - Program to calculate GCD of two given numbers  
 
-**./SPA/mularray_2x2add.c** - Program to calculate sum of two matrices, 2x2
+**SPA/hcf.c** - Program to calculate GCD of two given numbers  
 
-**./SPA/1to10tables.c** - Program to print a square-table matrix
+**SPA/helloworld.c** - Program which says Hello World!  
 
-**./SPA/nonformio.c** - Program to understand the usage of Non-Formatted I/O functions
+**SPA/mularray_2x2add.c** - Program to calculate sum of two matrices, 2x2  
 
-**./SPA/refunc_prime.c** - Program to check whether the given number is a prime number or not
+**SPA/mularray_magic.c** - Program to check whether the given matrix is a Magic matrix  
 
-**./SPA/calc_switch.c** - Program to play with numbers
+**SPA/mularray_rowreverse.c** - Program to reverse the rows a given n-order matrix  
 
-**./SPA/sumofseries1.c** - Program To calculate sum of the series
+**SPA/mularray_sumofelements.c** - Program to calculate the sum of elements using function  
 
-**./SPA/avg_noneg_while.c** - Program to calculate average of 'n' numbers provided by user. Program continues on specifying negative numbers
+**SPA/mularray_sumofupdiag.c** - Program to calculate sum of upper diagonal elements of an array  
 
-**./SPA/pattern_startri.c** - Pattern printing program
+**SPA/ninputs_for.c** - Take input from user and continue taking it if user enters 'Y' or 'y' as input  
 
-**./SPA/oddprint.c** - Program to print Odd numbers upto 'n'
+**SPA/ninputs_while.c** - Take input from user and continue taking it if user enters 'Y' or 'y' as input  
 
-**./SPA/mularray_sumofelements.c** - Program to calculate the sum of elements using function
+**SPA/nnos_while.c** - Program to print 'n' numbers  
 
-**./SPA/numsys_convert.c** - Program to convert a Decimal number to either of their Binary, Octal, or Hexadecimal equivalents
+**SPA/nonformio.c** - Program to understand the usage of Non-Formatted I/O functions  
 
-**./SPA/sumof5digitno_for.c** - Program to calculate sum of digits of 5 digit number
+**SPA/numsys_convert.c** - Program to convert a Decimal number to either of their Binary, Octal, or Hexadecimal equivalents  
 
-**./SPA/func_mularray_sumofels.c** - Program to calculate the sum of elements of a Matrix using function
+**SPA/oddprint.c** - Program to print Odd numbers upto 'n'  
 
-**./SPA/func_mularray_transpose.c** - Program to evaluate transpose of a multidim array
+**SPA/pattern_ABCtri.c** - A Pattern printing program  
 
-**./SPA/ninputs_while.c** - Take input from user and continue taking it if user enters 'Y' or 'y' as input
+**SPA/pattern_asc_desc.c** - A Pattern printing program  
 
-**./SPA/mularray_sumofupdiag.c** - Program to calculate sum of upper diagonal elements of an array
+**SPA/pattern_no_124369.c** - Pattern printing program  
 
-**./SPA/prime.c** - Program to check whether the given number is a prime number or not
+**SPA/pattern_startri.c** - Pattern printing program  
 
-**./SPA/array_minmax.c** - Program to Find minimum and maximum values in Array
+**SPA/prime2.c** - Program to check whether the given number is a prime number or not  
 
-**./DS/stackemulator.c** - Menu-Driven Program to imitate a Stack using an Array
+**SPA/prime.c** - Program to check whether the given number is a prime number or not  
 
-**./DS/linked_list_allOps.c** - Program to emulate a linked list using structures, values from user, MENU DRIVEN - Operations use Start Node as Reference
+**SPA/refunc_fact.c** - Program to calculate Factorial  
 
-**./DS/linked_list_user.c** - Program to emulate a (creation-only) linked list using structures, values from user
+**SPA/refunc_prime.c** - Program to check whether the given number is a prime number or not  
 
-**./DS/expr_validation.c** - Program to Validate Bracket Expressions
+**SPA/refunc_reverse.c** - Program to calculate reverse of a number using Recursion  
 
-**./DS/evalpost.c** - Program to Evaluate a PostFix expression
+**SPA/refunc_sumupton.c** - Program to calculate sum of n numbers  
 
-**./DS/in2post.c** - Program to convert an Infix expression to a Postfix expression
+**SPA/sumof5digitno_for.c** - Program to calculate sum of digits of 5 digit number  
 
-**./DS/circular_queue.c** - Program to implement Circular Queue using Array
+**SPA/sumofcubes_while.c** - Program to calculate the sum of cubes of 'n' numbers  
+
+**SPA/sumofndigitno_for.c** - Program to calculate sum of 'n' digit number  
+
+**SPA/sumofseries1.c** - Program To calculate sum of the series  
+
+**SPA/table.c** - Program which shows a table (kinda)  
 
