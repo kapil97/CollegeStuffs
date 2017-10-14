@@ -1,16 +1,26 @@
-# java
+# Java (OOPM)
 
+**AbstraktClass.java** -   
 
-**./gcd_fact_methodoverload.java** - Program which demonstrates method overloading
+**AppletDemo.java** -   
 
-**./num2byte_typecast.java** - Program which converts a number to byte format - Typecasting you know
+**bubblesort.java** - Program to perform Bubble Sort  
 
-**./constructstuffs.java** - Program which deals with Constructor Usage (Basic/Parameterized/Copy) and Constructor (and Method) Overloading
+**capitalize.java** -   
 
-**./sinterest.java** - Program which calculates Simple Interest
+**constructstuffs.java** - Program which deals with Constructor Usage (Basic/Parameterized/Copy) and Constructor (and Method) Overloading  
 
-**./StudentDB_ArrayOfObjects.java** - Program which collects and prints details of 'n' number of students
+**gcd_fact_methodoverload.java** - Program which demonstrates method overloading  
 
-**./insertsort_wip.java** - Program to perform Insertion Sort
+**insertsort_wip.java** - Program to perform Insertion Sort  
 
-**./bubblesort.java** - Program to perform Bubble Sort
+**num2byte_typecast.java** - Program which converts a number to byte format - Typecasting you know  
+
+**palindrome.java** -   
+
+**sinterest.java** - Program which calculates Simple Interest  
+
+**StudentDB_ArrayOfObjects.java** - Program which collects and prints details of 'n' number of students  
+
+**VektorDemo.java** -   
+
